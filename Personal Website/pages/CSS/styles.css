@@ -1,0 +1,121 @@
+/* Grey69 = 173, 173, 173, 1 */ 
+body { 
+	margin:0;
+}.Background { 
+	background-color:rgba(0, 0, 0, 1);
+	top:0px;
+	left:0px;
+	width:100%;
+	height:1080px;
+	position:absolute;
+}.Name_Background { 
+	background-color:rgba(173, 173, 173, 1);
+	width:100%;
+	height:32px;
+	position:absolute;
+	left:0px;
+	background-color: red;
+	animation-name: background-change;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+}.Name { 
+	color:rgba(0, 0, 0, 1);
+	width:100%;
+	height:22px;
+	position:absolute;
+	top:5px;
+	font-family:Roboto;
+	text-align:center;
+	font-size:23px;
+	letter-spacing:0;
+}.Navbar_Background { 
+	background-color:rgba(173, 173, 173, 1);
+	width:100%;
+	height:42px;
+	position:absolute;
+	left:0px;
+	top:31px;
+	animation-name: background-change;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+}.Impressum_Background { 
+	background-color:rgba(173, 173, 173, 1);
+	width:100%;
+	height:65px;
+	position:absolute;
+	left:0px;
+	top:1015px;
+}.Impressum { 
+	color:rgba(0, 0, 0, 1);
+	width:127px;
+	height:33px;
+	position:absolute;
+	left:50%;
+	top:1031px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:25px;
+	letter-spacing:0;
+}.Moodboard_Background { 
+	background-color:rgba(212, 212, 212, 1);
+	width:100%;
+	height:943px;
+	position:absolute;
+	left:0px;
+	top:72px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: rgba(105,105,105,0);
+}
+.topnav a {
+  float: left;
+  height:45px;
+  color:0;
+  font-family:Roboto;
+  text-align: center;
+  padding: 14px 16px;
+  margin-right:20px;
+  text-decoration: none;
+  font-size: 20px;
+  position:relative;
+	animation-name: color-change;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #33cc33;
+  color: white;
+  animation-name: active-change;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  
+}
+@keyframes background-change {
+  0%   {background-color: red;}
+  25%  {background-color: orange;}
+  50%  {background-color: lightblue;}
+  90% {background-color: green;}
+  100% {background-color:red;}
+}
+@keyframes color-change {
+  0%   {color: lime;}
+  25%  {color: blue;}
+  50%  {color: red;}
+  90% {color: black;}
+  100% {color:lime;}
+}
+@keyframes active-change {
+  0%   {background-color: red;}
+  25%  {background-color: orange;}
+  50%  {background-color: lightblue;}
+  90% {background-color: green;}
+  100% {background-color: red;}
+}
+ 
