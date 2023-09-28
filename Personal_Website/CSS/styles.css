@@ -25,14 +25,15 @@ body {
 	position:absolute;
 	top:5px;
 	font-family:Roboto;
-	text-align:center;
+	text-align:right;
+	right:2%;
 	font-size:23px;
 	letter-spacing:0;
 }
 .Navbar_Background { 
 	background-color: #32CD32;
 	width:100%;
-	height:42px;
+	height:28px;
 	position:absolute;
 	left:0px;
 	top:31px;
@@ -61,10 +62,10 @@ body {
 .Moodboard_Background { 
 	background-color:rgba(212, 212, 212, 1);
 	width:100%;
-	height:943px;
+	height:956px;
 	position:absolute;
 	left:0px;
-	top:72px;
+	top:59px;
 }
 .topnav {
   overflow: hidden;
@@ -72,7 +73,7 @@ body {
 }
 .topnav a {
   float: left;
-  height:44px;
+  height:28px;
   color:0;
   font-family:Roboto;
   text-align: center;
