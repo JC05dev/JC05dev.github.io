@@ -74,7 +74,7 @@ body {
 .topnav a {
   float: left;
   height:28px;
-  color:0;
+  color:white;
   font-family:Roboto;
   text-align: center;
   padding: 14px 16px;
@@ -91,6 +91,6 @@ body {
 }
 
 .topnav a.active {
-  background-color: #33cc33;
+  background-color: #24d66c;
   color: white;
 }
