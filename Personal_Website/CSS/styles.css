@@ -2,6 +2,25 @@
 body { 
 	margin:0;
 }
+.Landscape-Content {
+	display: block;
+  }
+
+  /* Portrait mode styling */
+  @media screen and (orientation: portrait) {
+	.Landscape-Content {
+	  display: none;
+	}
+
+	.Portrait-Content {
+	  display: block;
+	  text-align: center;
+	  background-color: black;
+	  color: white;
+	  padding: 20px;
+	  height: 100%;
+	}
+  }
 .Background { 
 	background-color:rgba(0, 0, 0, 1);
 	top:0px;
