@@ -21,6 +21,7 @@ body {
 	  height: 100%;
 	}
   }
+
 .Background { 
 	background-color:rgba(0, 0, 0, 1);
 	top:0px;
@@ -29,13 +30,13 @@ body {
 	height:1080px;
 	position:absolute;
 }
+
 .Name_Background { 
 	width:100%;
 	height:32px;
-	position:absolute;
+	position:relative;
 	left:0px;
 	background-color: #32CD32;
-
 }
 .Name { 
 	color:rgba(0, 0, 0, 1);
@@ -49,22 +50,22 @@ body {
 	font-size:23px;
 	letter-spacing:0;
 }
+
 .Navbar_Background { 
 	background-color: #32CD32;
 	width:100%;
 	height:25px;
-	position:absolute;
+	position:relative;
 	left:0px;
-	top:31px;
-
 }
+
 .Impressum_Background { 
 	background-color:rgba(173, 173, 173, 1);
 	width:100%;
 	height:65px;
-	position:absolute;
+	position:relative;
 	left:0px;
-	top:1015px;
+	top:958px;
 }
 .Impressum { 
 	color:rgba(0, 0, 0, 1);
@@ -78,6 +79,7 @@ body {
 	font-size:25px;
 	letter-spacing:0;
 }
+
 .Moodboard_Background { 
 	background-color:rgba(212, 212, 212, 1);
 	width:100%;
@@ -86,6 +88,7 @@ body {
 	left:0px;
 	top:56px;
 }
+
 .topnav {
   overflow: hidden;
   background-color: rgba(105,105,105,0);
@@ -101,14 +104,11 @@ body {
   text-decoration: none;
   font-size: 20px;
   position:relative;
-
 }
-
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
-
 .topnav a.active {
   background-color: #24d66c;
   color: white;
