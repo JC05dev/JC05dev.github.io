@@ -63,9 +63,9 @@ body {
 	background-color:rgba(173, 173, 173, 1);
 	width:100%;
 	height:65px;
-	position:relative;
+	position:absolute;
 	left:0px;
-	top:958px;
+	bottom:0;
 }
 .Impressum { 
 	color:rgba(0, 0, 0, 1);
@@ -73,7 +73,7 @@ body {
 	height:33px;
 	position:absolute;
 	left:50%;
-	top:1031px;
+	bottom:15px;
 	font-family:Roboto;
 	text-align:left;
 	font-size:25px;
