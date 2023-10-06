@@ -104,3 +104,21 @@ body {
   background-color: #126301;
   color: white;
 }
+
+/* Kontakt.html specific */
+.GMail-Form {
+	display: none;
+	position: fixed;
+	width: 40%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	padding: 20px;
+	z-index: -1;
+}
+.GMail-Logo {
+	height: 256px;
+	width: auto;
+	cursor: pointer;
+}
