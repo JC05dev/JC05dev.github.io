@@ -1,7 +1,11 @@
 ## Gmail Logo
-# The Gmail logo is a trademark of Google LLC. All rights to the Gmail logo are owned by Google LLC. The use of the Gmail logo is for illustrative purposes only and does not imply any endorsement or affiliation with Google LLC.
+# The Gmail logo is a trademark of Google LLC. All rights to the Gmail logo are owned by Google LLC. The use of the Gmail logo on this site is for illustrative purposes only and is used as a link to open a form handled by Formspree. This use does not imply any endorsement or affiliation with Gmail, Google, or Formspree.
 
 # For more information about the Gmail logo and its use, please refer to [Google Brand Resource Center](https://about.google/brand-resource-center/brand-elements/#product-icons).
+
+# The form submission is handled by [Formspree](https://formspree.io/) and is not officially associated with Gmail or Google.
+
+---
 
 ## GitHub Logo
 # The GitHub logo is a trademark of GitHub, Inc. All rights to the GitHub logo are owned by GitHub, Inc. The use of the GitHub logo is for illustrative purposes only and does not imply any endorsement or affiliation with GitHub, Inc.
