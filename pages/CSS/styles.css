@@ -121,9 +121,9 @@ body {
 }
 .GMail-Logo {
 	position: absolute;
-	height: 256px;
+	height: 30%;
 	width: auto;
-	top: 25%;
+	top: 30%;
 	left: 15%;
 	cursor: pointer;
 }
@@ -132,6 +132,7 @@ input, textarea {
 	margin: 0;
 	padding: 0;
 	line-height: 1.5;
+	background-color: black;
 	font-size: 16px;
 	display: block;
   }
