@@ -7,7 +7,7 @@
 
 ---
 
-# GitHub Logo
-## The GitHub logo is a trademark of GitHub, Inc. All rights to the GitHub logo are owned by GitHub, Inc. The use of the GitHub logo is for illustrative purposes only and does not imply any endorsement or affiliation with GitHub, Inc.
+# Invcertocat Logo
+## The INVERTOCAT logo design is a trademark of GitHub, Inc. All rights to the INVERTOCAT logo are owned by GitHub, Inc. The use of the INVERTOCAT logo is for illustrative purposes only and does not imply any endorsement or affiliation with GitHub, Inc.
 
-## For more information about the GitHub logo and its use, please visit [GitHub Logos and Usage](https://github.com/logos).
+## For more information about the Invertocat logo and its use, please visit [GitHub Logos and Usage](https://github.com/logos).
