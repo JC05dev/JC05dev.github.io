@@ -139,6 +139,9 @@ input, textarea {
 textarea {
 	height: 160px;
 }
+button {
+	background-color: gray;
+}
 
 .GitHub-Logo {
 	position: absolute;
