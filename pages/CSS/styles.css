@@ -99,6 +99,16 @@ body {
   background-color: #126301;
   color: white;
 }
+.button-lang {
+	position: relative;
+	background-color: #126301;
+	top: 15px;
+	padding: 3px;
+	z-index: 1;
+}
+.button-lang.active {
+	background-color: #32CD32;
+}
 
 /* Kontakt.html specific */
 .GMail-Form {
@@ -134,7 +144,7 @@ input, textarea {
 textarea {
 	height: 160px;
 }
-button {
+.button-submit {
 	background-color: gray;
 }
 

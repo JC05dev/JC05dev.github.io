@@ -35,7 +35,7 @@
 								Nachricht:
 								<textarea name="message" required></textarea>
 							</label>
-							<button type="submit">Senden</button>
+							<button type="submit" class="button-submit">Senden</button>
 						</form>
 					</div>
 					<div class="Github-Profile">
@@ -49,6 +49,10 @@
 					<a href="Uber_Mich.html" class="nav-link">Über Mich</a>
 					<a href="Lebenslauf.html" class="nav-link">Lebenslauf/Zeugnis</a>
 					<a class="nav-link active" href="#Kontakt">Kontakt</a>
+					<div id="language-switcher">
+						<button onclick="changeLanguage('de')" class="button-lang" data-language="de">Deutsch</button>
+						<button onclick="changeLanguage('en')" class="button-lang" data-language="en">English</button>
+					</div>
 				</div>
 			</div>
 			
@@ -57,6 +61,7 @@
 				<p>Bitte wechseln sie zum Landscape Modus</p>
 			</div>
 			<script src="../JS/orientation.js"></script>
+			<script src="../JS/translate.js"></script>
 			<script src="../JS/gmail_form.js"></script>
 
           </body>

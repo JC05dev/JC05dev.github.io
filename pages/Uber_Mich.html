@@ -19,10 +19,14 @@
 					<span  class="Title">Über Mich</span>
 				</div>
 				<div class="topnav">
-					<a href="../index.html" class="nav-link">Home</a>
-					<a class="nav-link active" href="#Uber_Mich">Über Mich</a>
-					<a href="Lebenslauf.html" class="nav-link">Lebenslauf/Zeugnis</a>
-					<a href="Kontakt.html" class="nav-link">Kontakt</a>
+					<a href="../index.html" class="nav-link" data-translate="home">Home</a>
+					<a class="nav-link active" href="#Uber_Mich" data-translate="about_me">Über Mich</a>
+					<a href="Lebenslauf.html" class="nav-link" data-translate="resume">Lebenslauf/Zeugnis</a>
+					<a href="Kontakt.html" class="nav-link" data-translate="contact">Kontakt</a>
+					<div id="language-switcher">
+						<button onclick="changeLanguage('de')" class="button-lang" data-language="de">Deutsch</button>
+						<button onclick="changeLanguage('en')" class="button-lang" data-language="en">English</button>
+					</div>
 				</div>
 			</div>
 			
@@ -31,6 +35,7 @@
 				<p>Bitte wechseln sie zum Landscape Modus</p>
 			</div>
 			<script src="../JS/orientation.js"></script>
+			<script src="../JS/translate.js"></script>
 			
           </body>
           </html>

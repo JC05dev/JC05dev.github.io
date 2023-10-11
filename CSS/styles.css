@@ -116,3 +116,13 @@ body {
   background-color: #126301;
   color: white;
 }
+.button-lang {
+	position: relative;
+	background-color: #126301;
+	top: 15px;
+	padding: 3px;
+	z-index: 1;
+}
+.button-lang.active {
+	background-color: #32CD32;
+}
