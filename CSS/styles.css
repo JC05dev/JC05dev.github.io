@@ -24,8 +24,6 @@ body {
 
 .Background { 
 	background-color:rgba(0, 0, 0, 1);
-	top:0px;
-	left:0px;
 	width:100%;
 	height:100%;
 	position:absolute;
@@ -35,7 +33,6 @@ body {
 	width:100%;
 	height:32px;
 	position:relative;
-	left:0px;
 	background-color: #32CD32;
 	z-index:1;
 }
@@ -58,7 +55,6 @@ body {
 	width:100%;
 	height:24px;
 	position:relative;
-	left:0px;
 	z-index:1;
 }
 
@@ -67,7 +63,6 @@ body {
 	width:100%;
 	height:65px;
 	position:absolute;
-	left:0px;
 	bottom:0;
 	z-index:1;
 }
@@ -90,8 +85,6 @@ body {
 	width:100%;
 	height:100%;
 	position:absolute;
-	left:0px;
-	bottom:0;
 }
 .Moodboard {
 	position: relative;
