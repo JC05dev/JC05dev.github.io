@@ -25,11 +25,11 @@ function translatePage(language) {
     const elements = document.querySelectorAll('[data-translate]');
     elements.forEach(element => {
         const key = element.getAttribute('data-translate');
-        console.log(`Translating key: ${key}`);
+        //console.log(`Translating key: ${key}`);
         if (translations[language] && translations[language][key]) {
             element.innerText = translations[language][key];
         } else {
-            console.log(`Translation not found for key: ${key}`);
+            //console.log(`Translation not found for key: ${key}`);
         }
     });
 }
@@ -49,7 +49,7 @@ function highlightSelectedLanguage(language) {
         selectedButton.classList.add('active');
     }
 
-    console.log(`Selected language: ${language}`);
+    //console.log(`Selected language: ${language}`);
 }
 
 
