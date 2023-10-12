@@ -103,6 +103,7 @@ body {
 	position: relative;
 	background-color: #126301;
 	top: 15px;
+	margin-left: 5px;
 	padding: 3px;
 	z-index: 1;
 }
