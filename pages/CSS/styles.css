@@ -56,6 +56,13 @@ body {
 	position:relative;
 }
 
+.Title {
+	font-size: 31px;
+	top: 1%;
+	left: 50%;
+	position: relative;
+}
+
 .Impressum_Background { 
 	background-color:rgba(173, 173, 173, 1);
 	width:100%;
