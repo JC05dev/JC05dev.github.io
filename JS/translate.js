@@ -1,6 +1,8 @@
 // Function to change language
 function changeLanguage(language) {
     localStorage.setItem('selectedLanguage', language);
+    currentLanguage = language;
+    const incorrectUrl = window.location.href;
     translatePage(language);
     highlightSelectedLanguage(language);
 }
@@ -17,6 +19,11 @@ function translatePage(language) {
             //console.log(`Translation not found for key: ${key}`);
         }
     });
+        // Special handling for errorMessage
+    const errorMessage = document.getElementById("errorMessage");
+    if (errorMessage) {
+        errorMessage.textContent = translations[language]['errorMessage'] + window.location.href;
+    }
 }
 
 

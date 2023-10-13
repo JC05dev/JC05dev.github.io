@@ -1,0 +1,6 @@
+.button-lang {
+    background-color: lightgray;
+}
+.button-lang.active {
+    background-color: gray;
+}
