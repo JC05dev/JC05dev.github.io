@@ -84,7 +84,6 @@ body {
 }
 
 .topnav {
-  overflow: hidden;
   background-color: rgba(105,105,105,0);
 }
 .topnav .nav-link {
@@ -106,6 +105,34 @@ body {
   background-color: #126301;
   color: white;
 }
+.topnav .nav-icon {
+	display: none;
+}
+
+@media screen and (max-width: 910px) {
+	.topnav .nav-link {
+	  display: none;
+	}
+	.topnav .nav-icon {
+		display: block;
+		position: relative;
+		float: left;
+		padding: 0px 5px;
+		font-size: 37px;
+	  	color: white;
+	  	cursor: pointer;
+	  	display: block;
+	}
+	.topnav.responsive {
+		position: relative;
+	  }
+	.topnav.responsive .nav-link {
+		display: block;
+		width: 100%;
+		text-align: center;
+		background-color:rgb(114, 109, 109);
+	  }
+  }
 .button-lang {
 	position: relative;
 	background-color: #126301;
