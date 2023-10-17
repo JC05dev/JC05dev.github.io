@@ -116,6 +116,32 @@ body {
   background-color: #126301;
   color: white;
 }
+@media screen and (max-width: 910px) {
+	.topnav .nav-link {
+	  display: none;
+	}
+	.topnav .nav-icon {
+		display: block;
+		position: relative;
+		padding-right: 15px;
+		font-size: 30px;
+	  	color: white;
+	  	cursor: pointer;
+	  	display: block;
+	}
+	.topnav.responsive {
+		position: relative;
+	  }
+	
+	.topnav.responsive .nav-link {
+		display: block;
+		width: 100%;
+		text-align: center;
+		background-color:rgb(114, 109, 109);
+
+
+	  }
+  }
 .button-lang {
 	position: relative;
 	background-color: #126301;
