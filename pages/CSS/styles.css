@@ -166,6 +166,11 @@ body {
 	left: 15%;
 	cursor: pointer;
 }
+.portrait .GMail-Logo {
+	top: 15%;
+	left: 50%;
+	transform: translateX(-50%);
+}
 input, textarea {
 	box-sizing: border-box;
 	margin: 0;
@@ -190,4 +195,9 @@ textarea {
 	top: 30%;
 	right: 15%;
 	cursor: pointer;
+}
+.portrait .GitHub-Logo {
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%);
 }
