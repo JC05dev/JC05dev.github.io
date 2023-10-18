@@ -1,24 +1,20 @@
 /* Grey69 = 173, 173, 173, 1 */ 
 body { 
 	margin:0;
-}
-.Landscape-Content {
 	display: block;
-  }
-
+}
   /* Portrait mode styling */
   @media screen and (orientation: portrait) {
-	.Landscape-Content {
-	  display: none;
+	.Content .Landscape {
+		display: none;
 	}
 
-	.Portrait-Content {
-	  display: block;
-	  text-align: center;
-	  background-color: black;
-	  color: white;
-	  padding: 20px;
-	  height: 100%;
+	.Content .portrait {
+	  	display: block;
+	  	text-align: center;
+	  	background-color: black;
+	  	color: white;
+	  	padding: 20px;
 	}
   }
 
@@ -137,6 +133,7 @@ body {
 		position: relative;
 	  }
 	.topnav.responsive .nav-link {
+		float: right;
 		display: block;
 		width: 100%;
 		text-align: center;

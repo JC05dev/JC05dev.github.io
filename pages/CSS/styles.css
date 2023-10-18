@@ -2,24 +2,20 @@
 body { 
 	margin:0;
 	font-family: Roboto;
-}
-.Landscape-Content {
 	display: block;
-  }
+}
 
-  /* Portrait mode styling */
-  @media screen and (orientation: portrait) {
-	.Landscape-Content {
-	  display: none;
+/* Portrait mode styling */
+@media screen and (orientation: portrait) {
+	.Content .Landscape {
+		display: none;
 	}
 
-	.Portrait-Content {
-	  display: block;
-	  text-align: center;
-	  background-color: black;
-	  color: white;
-	  padding: 20px;
-	  height: 100%;
+	.Content .portrait {
+	  	display: block;
+	  	text-align: center;
+	  	background-color: black;
+	  	color: white;
 	}
   }
 
@@ -57,9 +53,11 @@ body {
 }
 
 .Title {
+	display: inline-block;
 	font-size: 31px;
 	top: 1%;
 	left: 50%;
+	transform: translateX(-50%);
 	position: relative;
 }
 
@@ -76,9 +74,10 @@ body {
 	height:33px;
 	position:absolute;
 	left:50%;
+	transform: translateX(-50%);
 	bottom:15px;
 	font-family:Roboto;
-	text-align:left;
+	text-align:center;
 	font-size:25px;
 	letter-spacing:0;
 }
@@ -130,6 +129,7 @@ body {
 		display: block;
 		width: 100%;
 		text-align: center;
+		float: right;
 		background-color:rgb(114, 109, 109);
 	  }
   }
