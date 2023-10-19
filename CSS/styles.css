@@ -1,6 +1,7 @@
 /* Grey69 = 173, 173, 173, 1 */ 
 body { 
 	margin:0;
+	font-family: Roboto;
 	display: block;
 }
   /* Portrait mode styling */
@@ -38,7 +39,6 @@ body {
 	height:22px;
 	position:absolute;
 	top:5px;
-	font-family:Roboto;
 	text-align:right;
 	right:2%;
 	font-size:23px;
@@ -68,8 +68,8 @@ body {
 	height:33px;
 	position:absolute;
 	left:50%;
+	transform: translateX(-50%);
 	bottom:15px;
-	font-family:Roboto;
 	text-align:left;
 	font-size:25px;
 	letter-spacing:0;
@@ -94,7 +94,6 @@ body {
   float: left;
   height:28px;
   color:white;
-  font-family:Roboto;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
