@@ -133,7 +133,6 @@ body {
 		position: relative;
 	  }
 	.topnav.responsive .nav-link {
-		float: right;
 		display: block;
 		width: 100%;
 		text-align: center;
