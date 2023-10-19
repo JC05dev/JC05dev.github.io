@@ -122,7 +122,6 @@ body {
 		display: block;
 		position: relative;
 		float: left;
-		top: 6px;
 		padding: 0px 5px;
 		font-size: 37px;
 	  	color: white;
@@ -136,6 +135,7 @@ body {
 		display: block;
 		width: 100%;
 		text-align: center;
+		float: right;
 		background-color:rgb(212, 212, 212, 0.71);
 	  }
   }
