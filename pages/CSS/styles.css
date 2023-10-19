@@ -116,6 +116,7 @@ body {
 		display: block;
 		position: relative;
 		float: left;
+		top: 6px;
 		padding: 0px 5px;
 		font-size: 37px;
 	  	color: white;
