@@ -9,7 +9,7 @@ const translations = {
         'submit' : 'submit',
         'clear' : 'clear',
         'cancel' : 'cancel',
-        'errorMessage' : 'This URL doesnt exist',
+        'errorMessage' : 'This URL doesnt exist ',
         'try_these' : 'Try these URLs',
 
     },
@@ -22,8 +22,8 @@ const translations = {
         'message' : 'Nachricht',
         'submit' : 'Senden',
         'clear' : 'Löschen', 
-        'cancel' : 'abbrechen',
-        'errorMessage' : 'Diese URL existiert nicht l',
+        'cancel' : 'Abbrechen',
+        'errorMessage' : 'Diese URL existiert nicht ',
         'try_these' : 'Probieren sie es mit Diesen URLs',
     }
 };
