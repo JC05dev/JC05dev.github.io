@@ -31,6 +31,15 @@ document.addEventListener('DOMContentLoaded', function () {
             gmailForm.style.display = 'none';
         } else {
             console.error('GMail-Form not found');
+        } 
+      } else if (event.target.classList.contains('button-clear')) {
+        // Handle the click event for the clear button
+        const gmailForm = event.target.closest('.GMail-Form');
+        if (gmailForm) {
+            // Reset the form
+            gmailForm.reset();
+        } else {
+            console.error('GMail-Form not found');
         }
       }
       // The rest of your code
