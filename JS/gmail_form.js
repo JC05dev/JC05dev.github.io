@@ -7,13 +7,13 @@ document.addEventListener('DOMContentLoaded', function () {
           const gmailForm = gmailContact.querySelector('.GMail-Form');
           if (gmailForm) {
             // Toggle the visibility of the form
-            if (gmailForm.style.zIndex === '1') {
+            if (gmailForm.style.zIndex === '2') {
               // If the form is visible, hide it
               gmailForm.style.zIndex = '-1';
               gmailForm.style.display = 'none';
             } else {
               // If the form is hidden, show it
-              gmailForm.style.zIndex = '1';
+              gmailForm.style.zIndex = '2';
               gmailForm.style.display = 'block';
             }
           } else {
