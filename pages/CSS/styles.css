@@ -190,7 +190,7 @@ textarea {
 }
 .button-clear, .button-cancel {
 	background-color: gray;
-	float: right;
+	float: right; 
 }
 
 .GitHub-Logo {
