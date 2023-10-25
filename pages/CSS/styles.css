@@ -188,10 +188,7 @@ textarea {
 	background-color: gray;
 	float: left;
 }
-.button-clear {
-	background-color: gray;
-}
-.button-cancel {
+.button-clear, .button-cancel {
 	background-color: gray;
 	float: right;
 }
