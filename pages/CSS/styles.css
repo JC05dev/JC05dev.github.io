@@ -177,6 +177,7 @@ input, textarea {
 	padding: 0;
 	width: 100%;
 	line-height: 1.5;
+	color: white;
 	background-color: black;
 	font-size: 16px;
 	display: block;
