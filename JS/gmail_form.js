@@ -22,6 +22,16 @@ document.addEventListener('DOMContentLoaded', function () {
         } else {
           console.error('GMail-Contact not found');
         }
+      } else if (event.target.classList.contains('button-cancel')) {
+        // Handle the click event for the cancel button
+        const gmailForm = event.target.closest('.GMail-Form');
+        if (gmailForm) {
+            // Hide the form
+            gmailForm.style.zIndex = '-1';
+            gmailForm.style.display = 'none';
+        } else {
+            console.error('GMail-Form not found');
+        }
       }
       // The rest of your code
     });

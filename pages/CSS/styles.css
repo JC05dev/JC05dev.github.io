@@ -186,6 +186,11 @@ textarea {
 }
 .button-submit {
 	background-color: gray;
+	float: left;
+}
+.button-cancel {
+	background-color: gray;
+	float: right;
 }
 
 .GitHub-Logo {
