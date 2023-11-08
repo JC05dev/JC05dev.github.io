@@ -8,5 +8,5 @@ document.addEventListener("DOMContentLoaded", function() {
     setTimeout(function() {
         loadingOverlay.style.display = "none";
         loadingIcon.style.display = "none";
-    }, 15000000);
+    }, 1500);
 });
