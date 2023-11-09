@@ -56,13 +56,6 @@ body {
 	position:absolute;
 }
 
-.Name_Background { 
-	width:100%;
-	height:32px;
-	position:relative;
-	background-color: #32CD32;
-	z-index:1;
-}
 .Name { 
 	color:rgba(0, 0, 0, 1);
 	width:100%;
@@ -79,7 +72,7 @@ body {
 .Navbar_Background { 
 	background-color: #32CD32;
 	width:100%;
-	height:24px;
+	height:56px;
 	position:relative;
 	z-index:1;
 }
