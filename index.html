@@ -16,26 +16,29 @@
 
 		<div class="Content">	
 			<div class="Background">
-				<div  class="Navbar_Background"></div>
-				<span  class="Name">Firstname Lastname</span>
+				<div  class="Navbar_Background">
+					<div class="topnav">
+						<div class="nav-icon">&#9776;</div>
+						<a class="nav-link active" href="index.html" data-translate="home">Home</a>
+						<a href="pages/Uber_Mich.html" class="nav-link" data-translate="about_me">Über Mich</a>
+						<a href="pages/Lebenslauf.html" class="nav-link" data-translate="resume">Lebenslauf/Zeugnis</a>
+						<a href="pages/Kontakt.html" class="nav-link" data-translate="contact">Kontakt</a>
+						<div id="language-switcher">
+							<button onclick="changeLanguage('de')" class="button-lang" data-language="de">Deutsch</button>
+							<button onclick="changeLanguage('en')" class="button-lang" data-language="en">English</button>
+						</div>
+					</div>
+					<span  class="Name">Firstname Lastname</span>
+				</div>
+				<div class="Moodboard_Background">
+					<span class="Moodboard"><img src="IMG/placeholder.png" alt="this is just a placeholder"> </span>
+				</div>
 				<div  class="Rechtliches_Background">
 					<a href="pages/Rechtliches.html" class="Rechtliches" data-translate="legal">Rechtliches</a>
 				</div>
 			</div>
-			<div class="Moodboard_Background">
-				<span class="Moodboard"><img src="IMG/placeholder.png" alt="this is just a placeholder"> </span>
-			</div>
-			<div class="topnav">
-				<div class="nav-icon">&#9776;</div>
-				<a class="nav-link active" href="index.html" data-translate="home">Home</a>
-				<a href="pages/Uber_Mich.html" class="nav-link" data-translate="about_me">Über Mich</a>
-				<a href="pages/Lebenslauf.html" class="nav-link" data-translate="resume">Lebenslauf/Zeugnis</a>
-				<a href="pages/Kontakt.html" class="nav-link" data-translate="contact">Kontakt</a>
-				<div id="language-switcher">
-					<button onclick="changeLanguage('de')" class="button-lang" data-language="de">Deutsch</button>
-					<button onclick="changeLanguage('en')" class="button-lang" data-language="en">English</button>
-				</div>
-			</div>
+			
+			
 		</div>
 
 		<script src="JS/loading.js"></script>
