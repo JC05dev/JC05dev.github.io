@@ -76,12 +76,12 @@ body {
 }
 
 .Title {
-	display: inline-block;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+    text-align: center;
 	font-size: 31px;
-	top: 1%;
-	left: 50%;
-	transform: translateX(-50%);
-	position: relative;
+	position: absolute;
 }
 
 .Rechtliches_Background { 
@@ -108,7 +108,9 @@ body {
 }
 
 .topnav {
-  background-color: rgba(105,105,105,0);
+	position: relative;
+	z-index: 1;
+  	background-color: rgba(105,105,105,0);
 }
 .topnav .nav-link {
   float: left;
@@ -157,6 +159,9 @@ body {
 		float: right;
 		background-color:rgb(114, 109, 109,0.71);
 	  }
+	.Title.responsive {
+		top: 1%;
+	}
   }
 .button-lang {
 	position: relative;
