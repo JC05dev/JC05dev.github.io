@@ -34,20 +34,6 @@ body {
     100% { transform: rotate(360deg); }
 }
 
-  /* Portrait mode styling */
-  @media screen and (orientation: portrait) {
-	.Content .Landscape {
-		display: none;
-	}
-
-	.Content .portrait {
-	  	display: block;
-	  	text-align: center;
-	  	background-color: black;
-	  	color: white;
-	  	padding: 20px;
-	}
-  }
 
 .Background { 
 	background-color:rgba(0, 0, 0, 1);
@@ -139,6 +125,18 @@ body {
 	z-index: 1;
 }
 
+.button-lang {
+	position: relative;
+	background-color: #126301;
+	top: 15px;
+	margin-left: 5px;
+	padding: 3px;
+	z-index: 1;
+}
+.button-lang.active {
+	background-color: #32CD32;
+}
+
 @media screen and (max-width: 910px) {
 	.topnav .nav-link {
 	  display: none;
@@ -162,19 +160,28 @@ body {
 		text-align: center;
 		float: right;
 		background-color:rgb(212, 212, 212, 0.71);
-	  }
-	  .topnav.responsive .nav-link.active {
-		background-color:rgb(92, 88, 88);;
+	}
+	.topnav.responsive .nav-link.active {
+		background-color:rgb(78, 74, 74, 0.71);
 	}
   }
-.button-lang {
-	position: relative;
-	background-color: #126301;
-	top: 15px;
-	margin-left: 5px;
-	padding: 3px;
-	z-index: 1;
-}
-.button-lang.active {
-	background-color: #32CD32;
-}
+
+@media screen and (max-width: 388px) {
+	.button-lang {
+		margin-left: auto;
+	}
+  }
+
+/* Portrait mode styling */
+@media screen and (orientation: portrait) {
+	.Content .Landscape {
+		display: none;
+	}
+
+	.Content .portrait {
+	  	display: block;
+	  	text-align: center;
+	  	background-color: black;
+	  	color: white;
+	}
+  }
