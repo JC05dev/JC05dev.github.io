@@ -34,22 +34,6 @@ body {
     100% { transform: rotate(360deg); }
 }
 
-/* Portrait mode styling */
-@media screen and (orientation: portrait) {
-	.Content .Landscape {
-		display: none;
-	}
-
-	.Content .portrait {
-	  	display: block;
-	  	text-align: center;
-	  	background-color: black;
-	  	color: white;
-	}
-	.Title.responsive {
-		display: none;
-	}
-  }
 
 .Background { 
 	background-color:rgb(114, 109, 109);
@@ -140,37 +124,6 @@ body {
 	display: none;
 }
 
-@media screen and (max-width: 910px) {
-	.topnav .nav-link {
-	  display: none;
-	}
-	.topnav .nav-icon {
-		display: block;
-		position: relative;
-		float: left;
-		padding: 0px 5px;
-		font-size: 37px;
-	  	color: white;
-	  	cursor: pointer;
-	  	display: block;
-	}
-	.topnav.responsive {
-		position: relative;
-	  }
-	.topnav.responsive .nav-link {
-		display: block;
-		width: 100%;
-		text-align: center;
-		float: right;
-		background-color:rgb(114, 109, 109,0.71);
-	  }
-	.topnav.responsive .nav-link.active {
-		background-color:rgb(92, 88, 88);;
-	}
-	.Title.responsive {
-		transform: translateY(calc(-100% - 10px));
-	}
-  }
 .button-lang {
 	position: relative;
 	background-color: #126301;
@@ -246,3 +199,61 @@ textarea {
 	left: 50%;
 	transform: translateX(-50%);
 }
+
+@media screen and (max-width: 910px) {
+	.topnav .nav-link {
+	  display: none;
+	}
+	.topnav .nav-icon {
+		display: block;
+		position: relative;
+		float: left;
+		padding: 0px 5px;
+		font-size: 37px;
+	  	color: white;
+	  	cursor: pointer;
+	  	display: block;
+	}
+	.topnav.responsive {
+		position: relative;
+	  }
+	.topnav.responsive .nav-link {
+		display: block;
+		width: 100%;
+		text-align: center;
+		float: right;
+		background-color:rgb(114, 109, 109,0.71);
+	}
+	.topnav.responsive .nav-link.active {
+		background-color:rgb(92, 88, 88);;
+	}
+	.Title.responsive {
+		transform: translateY(calc(-100% - 10px));
+		opacity: 1;
+	}
+  }
+
+@media screen and (max-width: 388px) {
+	.button-lang {
+		margin-left: auto;
+	}
+  }
+
+
+/* Portrait mode styling */
+@media screen and (orientation: portrait) {
+	.Content .Landscape {
+		display: none;
+	}
+
+	.Content .portrait {
+	  	display: block;
+	  	text-align: center;
+	  	background-color: black;
+	  	color: white;
+	}
+	.Title.responsive {
+		opacity: 0;
+		transform: none;
+	}
+  }
