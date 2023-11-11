@@ -163,6 +163,9 @@ body {
 		float: right;
 		background-color:rgb(212, 212, 212, 0.71);
 	  }
+	  .topnav.responsive .nav-link.active {
+		background-color:rgb(92, 88, 88);;
+	}
   }
 .button-lang {
 	position: relative;
