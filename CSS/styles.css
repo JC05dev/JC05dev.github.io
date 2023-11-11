@@ -137,6 +137,7 @@ body {
 	background-color: #32CD32;
 }
 
+/* responsive styling */
 @media screen and (max-width: 910px) {
 	.topnav .nav-link {
 	  display: none;

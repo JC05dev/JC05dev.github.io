@@ -200,6 +200,7 @@ textarea {
 	transform: translateX(-50%);
 }
 
+/* responsive styling */
 @media screen and (max-width: 910px) {
 	.topnav .nav-link {
 	  display: none;
