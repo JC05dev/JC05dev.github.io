@@ -203,10 +203,16 @@ textarea {
 /* responsive styling */
 @media screen and (max-width: 910px) {
 	.topnav .nav-link {
-	  display: none;
+		display: block;
+		visibility: hidden;
+		float: right;
+		opacity: 0;
+		top: 0;
+		transition: top 0.4s ease, opacity 0.5s ease;
+		transform: translateY(+200%);
 	}
 	.topnav .nav-icon {
-		display: block;
+		display: none;
 		position: relative;
 		float: left;
 		padding: 0px 5px;
@@ -220,10 +226,13 @@ textarea {
 	  }
 	.topnav.responsive .nav-link {
 		display: block;
+		visibility: visible;
+		top: 111px;
 		width: 100%;
 		text-align: center;
-		float: right;
 		background-color:rgb(114, 109, 109,0.71);
+		transform: translateY(-200%);
+		opacity: 1;
 	}
 	.topnav.responsive .nav-link.active {
 		background-color:rgb(92, 88, 88);;
