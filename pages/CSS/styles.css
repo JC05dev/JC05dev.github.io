@@ -60,6 +60,7 @@ body {
 	width:100%;
 	height:56px;
 	position:relative;
+	display: flex;
 }
 
 .Title {
@@ -124,6 +125,10 @@ body {
 	display: none;
 }
 
+#language-switcher {
+	display: flex;
+	flex-direction: row;
+}
 .button-lang {
 	position: relative;
 	background-color: #126301;
@@ -131,6 +136,7 @@ body {
 	margin-left: 5px;
 	padding: 3px;
 	z-index: 1;
+	cursor: pointer;
 }
 .button-lang.active {
 	background-color: #32CD32;
@@ -223,6 +229,7 @@ textarea {
 	}
 	.topnav.responsive {
 		position: relative;
+		width: 100%;
 	  }
 	.topnav.responsive .nav-link {
 		display: block;
@@ -244,8 +251,11 @@ textarea {
   }
 
 @media screen and (max-width: 388px) {
+	.Name {
+		font-size: 18px;
+	}
 	.button-lang {
-		margin-left: auto;
+		margin-left: 5px;
 	}
   }
 

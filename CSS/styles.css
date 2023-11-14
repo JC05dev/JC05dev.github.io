@@ -61,6 +61,7 @@ body {
 	height:56px;
 	position:relative;
 	z-index:1;
+	display: flex;
 }
 
 .Rechtliches_Background { 
@@ -125,6 +126,10 @@ body {
 	z-index: 1;
 }
 
+#language-switcher {
+	display: flex;
+	flex-direction: row;
+}
 .button-lang {
 	position: relative;
 	background-color: #126301;
@@ -132,6 +137,7 @@ body {
 	margin-left: 5px;
 	padding: 3px;
 	z-index: 1;
+	cursor: pointer;
 }
 .button-lang.active {
 	background-color: #32CD32;
@@ -160,6 +166,7 @@ body {
 	}
 	.topnav.responsive {
 		position: relative;
+		width: 100%;
 	  }
 	.topnav.responsive .nav-link {
 		display: block;
@@ -177,8 +184,11 @@ body {
   }
 
 @media screen and (max-width: 388px) {
+	.Name {
+		font-size: 18px;
+	}
 	.button-lang {
-		margin-left: auto;
+		margin-left: 5px;
 	}
   }
 
