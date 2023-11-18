@@ -5,6 +5,9 @@ function changeLanguage(language) {
     const incorrectUrl = window.location.href;
     translatePage(language);
     highlightSelectedLanguage(language);
+    if (!is404Page()) {
+    playSound(0.4);
+    }
 }
 
 // Function to translate the page content
@@ -26,7 +29,6 @@ function translatePage(language) {
     }
 }
 
-
 // Function to highlight the selected language
 function highlightSelectedLanguage(language) {
     const buttons = document.querySelectorAll('#language-switcher button');
@@ -44,8 +46,6 @@ function highlightSelectedLanguage(language) {
     //console.log(`Selected language: ${language}`);
 }
 
-
-
 // Get the selected language from localStorage
 const storedLanguage = localStorage.getItem('selectedLanguage');
 
@@ -59,3 +59,26 @@ translatePage(currentLanguage);
 document.addEventListener('DOMContentLoaded', function() {
     highlightSelectedLanguage(currentLanguage);
 });
+
+// Function to check if the current page is the 404 page
+function is404Page() {
+    // Check for the presence of the errorMessage element
+    return document.getElementById('errorMessage') !== null;
+}
+
+function getSoundFilePath() {
+    // Check the current location and construct the path accordingly
+    const currentPath = window.location.pathname;
+    
+    // If the current location is in the 'pages' folder or a subfolder of 'pages'
+    if (currentPath.includes('/pages/')) {
+        return '../Sound/interface-124464.mp3';
+    } else {
+        return 'Sound/interface-124464.mp3';
+    }
+}
+function playSound(volume) {
+    var audio = new Audio(getSoundFilePath());
+    audio.volume = volume || 1.0;
+    audio.play();
+}
