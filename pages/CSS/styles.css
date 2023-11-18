@@ -132,11 +132,14 @@ body {
 .button-lang {
 	position: relative;
 	background-color: #126301;
-	top: 15px;
+	top: 14px;
 	margin-left: 5px;
 	padding: 3px;
 	z-index: 1;
 	cursor: pointer;
+	border-style: solid;
+	border-width: 3px;
+	border-color: forestgreen;
 }
 .button-lang.active {
 	background-color: #32CD32;
