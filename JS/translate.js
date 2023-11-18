@@ -2,6 +2,7 @@
 function changeLanguage(language) {
     localStorage.setItem('selectedLanguage', language);
     currentLanguage = language;
+    document.documentElement.lang = language;
     const incorrectUrl = window.location.href;
     translatePage(language);
     highlightSelectedLanguage(language);
