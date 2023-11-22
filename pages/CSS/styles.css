@@ -5,6 +5,13 @@ body {
 	display: block;
 }
 
+footer {
+	position: absolute;
+	height: 50px;
+	width: 100%;
+	bottom: 0;
+}
+
 .loading {
     position: fixed;
     top: 0;
