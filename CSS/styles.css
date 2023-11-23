@@ -140,13 +140,14 @@ footer {
 .button-lang {
 	position: relative;
 	background-color: #126301;
-	top: 14px;
+	top: 12px;
 	margin-left: 5px;
-	padding: 3px;
+	padding: 4px;
 	z-index: 1;
 	cursor: pointer;
 	border-style: solid;
 	border-width: 3px;
+	border-radius: 10px;
 	border-color: forestgreen;
 }
 .button-lang.active {
@@ -193,9 +194,10 @@ footer {
 	}
   }
 
-@media screen and (max-width: 388px) {
+@media screen and (max-width: 390px) {
 	.Name {
 		font-size: 18px;
+		top: 7px;
 	}
 	.button-lang {
 		margin-left: 5px;
