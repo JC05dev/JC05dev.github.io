@@ -130,7 +130,6 @@ footer {
 }
 .topnav .nav-icon {
 	display: none;
-	z-index: 1;
 }
 
 #language-switcher {
