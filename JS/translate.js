@@ -73,9 +73,9 @@ function getSoundFilePath() {
     
     // If the current location is in the 'pages' folder or a subfolder of 'pages'
     if (currentPath.includes('/pages/')) {
-        return '../Sound/interface-124464.mp3';
+        return '../assets/sounds/interface-124464.mp3';
     } else {
-        return 'Sound/interface-124464.mp3';
+        return 'assets/sounds/interface-124464.mp3';
     }
 }
 function playSound(volume) {
