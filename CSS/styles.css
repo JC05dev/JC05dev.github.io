@@ -180,6 +180,7 @@ footer {
 	  }
 	.topnav.responsive .nav-link {
 		display: block;
+		padding: 14px 0;
 		visibility: visible;
 		top: 111px;
 		width: 100%;
