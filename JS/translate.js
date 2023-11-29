@@ -51,7 +51,7 @@ function highlightSelectedLanguage(language) {
 const storedLanguage = localStorage.getItem('selectedLanguage');
 
 // Set the default language or use the stored language
-let currentLanguage = storedLanguage || 'de';
+let currentLanguage = storedLanguage || 'en';
 
 // Initial translation
 translatePage(currentLanguage);
