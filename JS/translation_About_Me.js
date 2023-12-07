@@ -3,6 +3,7 @@ const aboutMeTranslations = {
         'test': 'test',
     },
     'de': {
-        'test': 'TEST',
+        'test': 'TEST2',
     }
 };
+module.exports = aboutMeTranslations;

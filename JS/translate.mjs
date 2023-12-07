@@ -1,14 +1,17 @@
-// Import translations from main file
-import { translations as mainTranslations } from './translations';
+// Import translations
+import mainTranslations from './JS/mainTranslations.js';
+import aboutMeTranslations from './JS/translations_About_Me.js';
 
-// Import translations from sub files
-import { translations as aboutMeTranslations } from './translations_About-Me';
+console.log('Imports successful');
+
 
 // Combine translations from both files into a single object
 const translations = {
     ...mainTranslations,
     ...aboutMeTranslations,
 };
+
+console.log('Translations:', translations);
 
 // Function to change language
 function changeLanguage(language) {

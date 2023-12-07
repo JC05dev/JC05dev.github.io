@@ -35,3 +35,4 @@ const mainTranslations = {
         'try_these' : 'Probieren sie es mit Diesen URLs',
     }
 };
+module.exports = mainTranslations;
