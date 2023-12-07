@@ -1,4 +1,4 @@
-const translations = {
+const mainTranslations = {
     'en': {
         //Navigation Translations
         'home': 'Home',

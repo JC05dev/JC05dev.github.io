@@ -1,3 +1,15 @@
+// Import translations from main file
+import { translations as mainTranslations } from './translations';
+
+// Import translations from sub files
+import { translations as aboutMeTranslations } from './translations_About-Me';
+
+// Combine translations from both files into a single object
+const translations = {
+    ...mainTranslations,
+    ...aboutMeTranslations,
+};
+
 // Function to change language
 function changeLanguage(language) {
     localStorage.setItem('selectedLanguage', language);
