@@ -1,4 +1,4 @@
-const aboutMeTranslations = {
+export const aboutMeTranslations = {
     'en': {
         'test': 'test',
     },
@@ -6,4 +6,3 @@ const aboutMeTranslations = {
         'test': 'TEST2',
     }
 };
-module.exports = aboutMeTranslations;

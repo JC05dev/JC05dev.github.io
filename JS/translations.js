@@ -1,4 +1,4 @@
-const mainTranslations = {
+export const mainTranslations = {
     'en': {
         //Navigation Translations
         'home': 'Home',
@@ -35,4 +35,3 @@ const mainTranslations = {
         'try_these' : 'Probieren sie es mit Diesen URLs',
     }
 };
-module.exports = mainTranslations;

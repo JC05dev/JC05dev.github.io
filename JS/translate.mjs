@@ -1,14 +1,13 @@
 // Import translations
-import mainTranslations from './JS/mainTranslations.js';
-import aboutMeTranslations from './JS/translations_About_Me.js';
+import { mainTranslations } from './JS/mainTranslations.js';
+import { aboutMeTranslations } from './translation_About_Me.js';
 
 console.log('Imports successful');
 
-
 // Combine translations from both files into a single object
 const translations = {
-    ...mainTranslations,
-    ...aboutMeTranslations,
+    aboutMe: aboutMeTranslations,
+    main: mainTranslations,
 };
 
 console.log('Translations:', translations);
