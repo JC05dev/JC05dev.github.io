@@ -1,6 +1,6 @@
 // Import translations
-import { mainTranslations } from './Translations.js';
-import { aboutMeTranslations } from './translation_About_Me.js';
+import { mainTranslations } from '/JS/Translations.js';
+import { aboutMeTranslations } from '/JS/translation_About_Me.js';
 
 console.log('Imports successful');
 
