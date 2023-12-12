@@ -74,6 +74,8 @@ translatePage(currentLanguage);
 
 // Event listener for initial highlighting
 document.addEventListener('DOMContentLoaded', function() {
+    console.log('DOMContentLoaded event fired.');
+    
     document.getElementById('deButton').addEventListener('click', function () {
         changeLanguage('de');
     });
