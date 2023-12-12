@@ -12,6 +12,20 @@ const translations = {
 
 console.log('Translations:', translations);
 
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('DOMContentLoaded event fired.');
+    
+    document.getElementById('deButton').addEventListener('click', function () {
+        changeLanguage('de');
+    });
+
+    document.getElementById('enButton').addEventListener('click', function () {
+        changeLanguage('en');
+    });
+
+    highlightSelectedLanguage(currentLanguage);
+});
+
 // Function to change language
 function changeLanguage(language) {
     localStorage.setItem('selectedLanguage', language);
@@ -72,20 +86,6 @@ let currentLanguage = storedLanguage || 'en';
 // Initial translation
 translatePage(currentLanguage);
 
-// Event listener for initial highlighting
-document.addEventListener('DOMContentLoaded', function() {
-    console.log('DOMContentLoaded event fired.');
-    
-    document.getElementById('deButton').addEventListener('click', function () {
-        changeLanguage('de');
-    });
-
-    document.getElementById('enButton').addEventListener('click', function () {
-        changeLanguage('en');
-    });
-
-    highlightSelectedLanguage(currentLanguage);
-});
 
 // Function to check if the current page is the 404 page
 function is404Page() {
