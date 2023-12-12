@@ -23,6 +23,8 @@ function changeLanguage(language) {
     if (!is404Page()) {
     playSound(0.4);
     }
+
+    console.log(`Changing language to: ${language}`);
 }
 
 // Function to translate the page content
@@ -30,11 +32,11 @@ function translatePage(language) {
     const elements = document.querySelectorAll('[data-translate]');
     elements.forEach(element => {
         const key = element.getAttribute('data-translate');
-        //console.log(`Translating key: ${key}`);
+        console.log(`Translating key: ${key}`);
         if (translations[language] && translations[language][key]) {
             element.innerText = translations[language][key];
         } else {
-            //console.log(`Translation not found for key: ${key}`);
+            console.log(`Translation not found for key: ${key}`);
         }
     });
         // Special handling for errorMessage
@@ -58,7 +60,7 @@ function highlightSelectedLanguage(language) {
         selectedButton.classList.add('active');
     }
 
-    //console.log(`Selected language: ${language}`);
+    console.log(`Selected language: ${language}`);
 }
 
 // Get the selected language from localStorage
