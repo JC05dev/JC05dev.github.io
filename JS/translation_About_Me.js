@@ -6,3 +6,4 @@ export const aboutMeTranslations = {
         'test': 'TEST2',
     }
 };
+export default aboutMeTranslations;
