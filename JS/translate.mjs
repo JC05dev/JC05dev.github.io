@@ -1,15 +1,31 @@
-// Import translations
+// Import mainTranslation by default
 import mainTranslations from './translations.js';
-import aboutMeTranslations from './translation_About_Me.js';
 
-console.log('Imports successful');
+function translationPrepare() {
+console.log('Main translations Imported successfuly');
 
-// Combine translations from both files into a single object
-const translations = {
-    main: mainTranslations,
-    aboutMe: aboutMeTranslations,
-    
-};
+// Get the current page
+const currentPage = window.location.pathname;
+
+// import additional translation based on the current page
+let additionalTranslations = null;
+if (currentPage.includes('/Uber_Mich.html/')) {
+    additionalTranslations = import('./translation_About_Me.js');
+}
+// Use Promise.all to wait for all imports to complete
+Promise.all([additionalTranslations])
+    .then(([aboutMeTranslations, contactTranslations]) => {
+        const translations = {
+            main: mainTranslations,
+            aboutMe: aboutMeTranslations,
+            contact: contactTranslations,
+        };
+    })
+    .catch(error => {
+        console.error('Error importing translation files:', error);
+    });
+}
+translationPrepare();
 
 console.log('Translations:', translations);
 
