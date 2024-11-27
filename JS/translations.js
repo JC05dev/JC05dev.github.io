@@ -6,7 +6,7 @@ const translations = {
         'resume': 'Resume/Report Card(s)',
         'contact': 'Contact',
         'legal' : 'Legal',
-        'projects' : 'projects',
+        'projects' : 'Projects',
         //Gmail-Form Translations
         'subject' : 'Subject',
         'message' : 'Message',
