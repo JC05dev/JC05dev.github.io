@@ -1,0 +1,27 @@
+.File-Grid {
+    position: relative;   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    top: 42px;
+    gap: 20px;
+    height: 82%;
+    width: 100%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    background-color: none;
+}
+
+.Lebenslauf  {
+    background-color:rgba(114, 109, 109, 1);
+	width:100%;
+	height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+embed {
+    width: 100%;
+    height: 100%;
+}
